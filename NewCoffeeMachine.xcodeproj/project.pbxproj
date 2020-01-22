@@ -63,9 +63,7 @@
 				3C4FDDD323D8A305005D7600 /* Class */,
 				3C4FDDD623D8A585005D7600 /* SupportingFiles */,
 				3C4FDDC123D8A2B6005D7600 /* ViewController.swift */,
-				3C4FDDC323D8A2B6005D7600 /* Main.storyboard */,
-				3C4FDDC623D8A2B7005D7600 /* Assets.xcassets */,
-				3C4FDDC823D8A2B7005D7600 /* LaunchScreen.storyboard */,
+				3C4FDDD723D8A5D2005D7600 /* View */,
 			);
 			path = NewCoffeeMachine;
 			sourceTree = "<group>";
@@ -87,6 +85,16 @@
 				3C4FDDBD23D8A2B6005D7600 /* AppDelegate.swift */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		3C4FDDD723D8A5D2005D7600 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C4FDDC323D8A2B6005D7600 /* Main.storyboard */,
+				3C4FDDC823D8A2B7005D7600 /* LaunchScreen.storyboard */,
+				3C4FDDC623D8A2B7005D7600 /* Assets.xcassets */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,7 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NewCoffeeMachine/Info.plist;
+				INFOPLIST_FILE = NewCoffeeMachine/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,7 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NewCoffeeMachine/Info.plist;
+				INFOPLIST_FILE = NewCoffeeMachine/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
