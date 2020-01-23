@@ -10,7 +10,7 @@ import UIKit
 
 class CoffeeMachine {
     var description: String {
-        return "Hello, I'm your new coffee machine =) Woulde you like some coffee?" + "\n" + "Coffee machine specifications:" + "\n" + "Coffee machine is automatic: \(isAutomatic)" + "\n" + "Coffee machine case material: \(materialOfCase)"
+        return "Coffee machine specifications:" + "\n" + "Coffee machine is automatic: \(isAutomatic)" + "\n" + "Coffee machine case material: \(materialOfCase)"
     }
     let isAutomatic: Bool
     var materialOfCase: String
