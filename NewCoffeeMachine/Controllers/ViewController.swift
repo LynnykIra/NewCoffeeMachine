@@ -21,10 +21,7 @@ class ViewController: UIViewController {
         backgroundMainStoryboard.image = UIImage (named: "coffee")
     }
     @IBAction func onButton(_ sender: UIButton) {
-        
-        let automaticCoffeeMachine = CoffeeMachine.init(isAutomatic: true, materialOfCase: "metal")
         welcomeLabel.text = "Hello, I'm your new coffee machine =) Would you like some coffee?"
-        
     }
 }
 
