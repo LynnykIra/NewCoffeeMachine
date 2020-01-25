@@ -29,4 +29,24 @@ class CoffeeMachine {
     func addCoffee() {
         coffee += 5
     }
+    
+    func addMilk() {
+        milk += 50
+    }
+    
+    func addCream() {
+        cream += 50
+    }
+
+    func addLargeCups() {
+    largeCups += 5
+    }
+    
+    func addMediumCups() {
+        mediumCups += 5
+    }
+    
+    func addSmallCups() {
+        smallCups += 5
+    }
 }
