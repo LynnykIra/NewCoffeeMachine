@@ -15,6 +15,7 @@
 		3C4FDDCA23D8A2B7005D7600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4FDDC823D8A2B7005D7600 /* LaunchScreen.storyboard */; };
 		3C4FDDD223D8A2E6005D7600 /* CoffeeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4FDDD123D8A2E6005D7600 /* CoffeeMachine.swift */; };
 		3C4FDDD523D8A4D2005D7600 /* CoffeeDrink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4FDDD423D8A4D2005D7600 /* CoffeeDrink.swift */; };
+		3C88F46C23DCC430005801E7 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C88F46B23DCC430005801E7 /* InfoViewController.swift */; };
 		3C95A96023D9FF7000BC7704 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C95A95F23D9FF7000BC7704 /* ServiceViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		3C4FDDCB23D8A2B7005D7600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C4FDDD123D8A2E6005D7600 /* CoffeeMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMachine.swift; sourceTree = "<group>"; };
 		3C4FDDD423D8A4D2005D7600 /* CoffeeDrink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDrink.swift; sourceTree = "<group>"; };
+		3C88F46B23DCC430005801E7 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		3C95A95F23D9FF7000BC7704 /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 			children = (
 				3C4FDDC123D8A2B6005D7600 /* ViewController.swift */,
 				3C95A95F23D9FF7000BC7704 /* ServiceViewController.swift */,
+				3C88F46B23DCC430005801E7 /* InfoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				3C4FDDC223D8A2B6005D7600 /* ViewController.swift in Sources */,
 				3C4FDDBE23D8A2B6005D7600 /* AppDelegate.swift in Sources */,
 				3C95A96023D9FF7000BC7704 /* ServiceViewController.swift in Sources */,
+				3C88F46C23DCC430005801E7 /* InfoViewController.swift in Sources */,
 				3C4FDDC023D8A2B6005D7600 /* SceneDelegate.swift in Sources */,
 				3C4FDDD523D8A4D2005D7600 /* CoffeeDrink.swift in Sources */,
 				3C4FDDD223D8A2E6005D7600 /* CoffeeMachine.swift in Sources */,
