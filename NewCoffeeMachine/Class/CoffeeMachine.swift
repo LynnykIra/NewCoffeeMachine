@@ -14,7 +14,6 @@ class CoffeeMachine {
     }
     let isAutomatic: Bool
     var materialOfCase: String
-    var sugar: Int = 0
     var coffee: Int
     var largeCups: Int = 0
     var smallCups: Int = 0
