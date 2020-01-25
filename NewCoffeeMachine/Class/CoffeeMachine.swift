@@ -14,16 +14,15 @@ class CoffeeMachine {
     }
     let isAutomatic: Bool
     var materialOfCase: String
-    var coffee: Int
+    var coffee: Int = 0
     var largeCups: Int = 0
     var smallCups: Int = 0
     var mediumCups: Int = 0
     var milk: Int = 0
     var cream: Int = 0
-    init (isAutomatic: Bool, materialOfCase: String, coffee: Int) {
+    init (isAutomatic: Bool, materialOfCase: String) {
         self.isAutomatic = isAutomatic
         self.materialOfCase = materialOfCase
-        self.coffee = coffee
     }
     
     func addCoffee() {
