@@ -26,39 +26,5 @@ class CoffeDrink {
         self.mediumCupsUsed = mediumCupsUsed
         self.largeCupsUsed = largeCupsUsed
     }
-    let automaticCoffeMachine = CoffeeMachine.init(isAutomatic: true, materialOfCase: "metal")
-    
-    func makeEspresso() {
-        automaticCoffeMachine.takeAwayCoffee()
-        automaticCoffeMachine.takeAwaySmallCup()
-    }
-    
-    func makeDopio() {
-        automaticCoffeMachine.takeAwayCoffee()
-        automaticCoffeMachine.takeAwayCoffee()
-        automaticCoffeMachine.takeAwayMediumCup()
-    }
-    
-    func makeCuppuchino() {
-        automaticCoffeMachine.takeAwayCoffee()
-        for _ in 0..<3 { automaticCoffeMachine.takeAwayMilk()
-        }
-        automaticCoffeMachine.takeAwayLargeCup()
-    }
-    
-    func makeVienneseCoffee() {
-        automaticCoffeMachine.takeAwayCoffee()
-        automaticCoffeMachine.takeAwayCream()
-        automaticCoffeMachine.takeAwayCream()
-        automaticCoffeMachine.takeAwayMediumCup()
-    }
-    
-    func makelatteMacchiato() {
-        automaticCoffeMachine.takeAwayCoffee()
-        automaticCoffeMachine.takeAwayMilk()
-        automaticCoffeMachine.takeAwayMilk()
-        automaticCoffeMachine.takeAwayCream()
-        automaticCoffeMachine.takeAwayLargeCup()
-    }
-    
+
 }
