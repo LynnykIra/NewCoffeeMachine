@@ -9,7 +9,7 @@
 import UIKit
 
 class InfoViewController: UIViewController {
-
+    
     @IBOutlet weak var infoScreenLabel: UILabel!
     @IBOutlet weak var infoScreenBackgroundImage: UIImageView!
     override func viewDidLoad() {
@@ -18,5 +18,5 @@ class InfoViewController: UIViewController {
         infoScreenLabel.text = automaticCoffeeMachine.description
         // Do any additional setup after loading the view.
     }
-     let automaticCoffeeMachine = CoffeeMachine.init(isAutomatic: true, materialOfCase: "metal")
+    var automaticCoffeeMachine = CoffeeMachine.init(isAutomatic: true, materialOfCase: "metal")
 }

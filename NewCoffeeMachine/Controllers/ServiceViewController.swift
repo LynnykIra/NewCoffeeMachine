@@ -10,6 +10,7 @@ import UIKit
 
 class ServiceViewController: UIViewController {
     
+    var automaticCoffeeMachine = CoffeeMachine.init(isAutomatic: true, materialOfCase: "metal")
     @IBOutlet weak var creamImage: UIImageView!
     @IBOutlet weak var milkImage: UIImageView!
     @IBOutlet weak var coffeeBeansImage: UIImageView!
@@ -26,7 +27,11 @@ class ServiceViewController: UIViewController {
         milkImage.image = UIImage (named: "milk")
         creamImage.image = UIImage (named: "cream")
     }
-    let automaticCoffeeMachine = CoffeeMachine.init(isAutomatic: true, materialOfCase: "metal", coffee: 5)
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let infoVc = segue.destination as? InfoViewController {
+            infoVc.automaticCoffeeMachine = automaticCoffeeMachine
+        }
+    }
     
     @IBAction func addCoffeeButton(_ sender: UIButton) {
         automaticCoffeeMachine.addCoffee()
@@ -52,4 +57,3 @@ class ServiceViewController: UIViewController {
     }
     
 }
-

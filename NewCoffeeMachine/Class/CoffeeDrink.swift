@@ -26,5 +26,5 @@ class CoffeDrink {
         self.mediumCupsUsed = mediumCupsUsed
         self.largeCupsUsed = largeCupsUsed
     }
-
+    
 }
