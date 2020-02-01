@@ -26,7 +26,7 @@ class CoffeeMachine {
     }
     
     func addCoffee() {
-        coffee += 5
+        coffee += 50
     }
     
     func addMilk() {
@@ -38,14 +38,32 @@ class CoffeeMachine {
     }
 
     func addLargeCups() {
-    largeCups += 5
+    largeCups += 50
     }
     
     func addMediumCups() {
-        mediumCups += 5
+        mediumCups += 50
     }
     
     func addSmallCups() {
-        smallCups += 5
+        smallCups += 50
+    }
+    
+    func checkResourses() -> String {
+        if coffee <= 0 {
+         return "Please add coffee"
+        } else if largeCups <= 0 {
+            return "Please add large Cups"
+        } else if mediumCups <= 0 {
+            return "Please add mediumCups"
+        } else if smallCups <= 0 {
+            return "Plese add smallCups"
+        } else if milk <= 0 {
+            return "Please add milk"
+        } else if cream <= 0 {
+            return "Plese add cream"
+        } else {
+            return "Coffee machine is ready"
+        }
     }
 }
