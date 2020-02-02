@@ -26,7 +26,6 @@ class ViewController: UIViewController {
         }
     }
     
-    
     func addBackgroundImage() {
         backgroundMainStoryboard.image = UIImage (named: "coffee")
     }
